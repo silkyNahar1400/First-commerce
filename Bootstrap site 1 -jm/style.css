@@ -2,3 +2,16 @@
     width: 60px;
     height: 50px;
 }
+.orange-bg{
+    background-color: rgb(242, 229, 242);
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.price{
+    color: rgb(219, 85, 199);
+}
+.pink-bg{
+    background-color:rgb(219,85,199);
+    
+}
