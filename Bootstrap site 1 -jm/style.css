@@ -1,6 +1,14 @@
 .logo {
-    width: 60px;
+    width: 65px;
     height: 50px;
+}
+ nav .logo-text {
+    font-weight: bolder;
+    font-size:larger;
+    margin-right: 10px;
+    margin-left: 0px;
+    color: green
+
 }
 .orange-bg{
     background-color: rgb(242, 229, 242);
@@ -14,4 +22,43 @@
 .pink-bg{
     background-color:rgb(219,85,199);
     
+}
+
+.category-section img {
+ width: 10rem
+}
+
+
+.cat-1, .cat-2, .cat-3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.cat-1 {
+    background-color: orchid;
+}
+.cat-2 {
+    background-color: rgb(50, 50, 240);
+}
+
+.cat-3 {
+    background-color: orange;
+}
+.category-section .bag-img {
+    width: 135px;
+}
+
+.shoe-section img {
+    max-width: 260px;
+    margin-left: 60px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1200px) {
+    .category-section img {
+        width: 6rem
+       }
+       .category-section .bag-img {
+        width: 5rem;
+    }
 }
